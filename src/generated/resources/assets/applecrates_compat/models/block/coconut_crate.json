@@ -1,0 +1,7 @@
+{
+  "parent": "applecrates:block/applecrate",
+  "textures": {
+    "0": "ecologics:block/coconut_planks",
+    "particle": "ecologics:block/coconut_planks"
+  }
+}

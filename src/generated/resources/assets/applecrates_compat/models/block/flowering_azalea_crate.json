@@ -1,0 +1,7 @@
+{
+  "parent": "applecrates:block/applecrate",
+  "textures": {
+    "0": "ecologics:block/flowering_azalea_planks",
+    "particle": "ecologics:block/flowering_azalea_planks"
+  }
+}

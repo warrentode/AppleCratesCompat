@@ -1,0 +1,156 @@
+//file:noinspection GroovyAssignabilityCheck
+//file:noinspection GrUnresolvedAccess
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url = 'https://maven.minecraftforge.net/' }
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '6.0,6.2', changing: true
+        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
+    }
+}
+
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'maven-publish'
+apply plugin: 'org.spongepowered.mixin'
+
+version = '1.19.2-1.0.1'
+group = 'com.github.warrentode'
+archivesBaseName = 'applecrates_compat'
+
+// Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    mappings channel: 'parchment', version: '2022.11.27-1.19.2'
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
+
+    // Default run configurations.
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'applecrates_compat'
+            mods {
+                applecrates_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'applecrates_compat'
+            mods {
+                applecrates_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        gameTestServer {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'applecrates_compat'
+            mods {
+                applecrates_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'applecrates_compat', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                applecrates_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    maven {
+        url = "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
+    // flatDir {
+    //     dir 'libs'
+    // }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19.2-43.2.21'
+
+    implementation fg.deobf("curse.maven:apple-crates-630726:4026845")
+    // extra biomes
+    implementation fg.deobf("curse.maven:ecologics-570463:4171285")
+    implementation fg.deobf("curse.maven:unusual-end-617757:4549776")
+    implementation fg.deobf("curse.maven:phantasm-565254:4398465")
+    implementation fg.deobf("curse.maven:terrablender-563928:4618490")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+// Example for how to get properties into the manifest for reading at runtime.
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "applecrates_compat",
+                "Specification-Vendor"    : "Warren Tode",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "Warren Tode",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.github.warrentode'
+            artifactId = 'applecrates_compat'
+            version = '1.19.2-1.0.1'
+
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
