@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.warrentode",
+    "module": "applecrates_compat",
+    "version": "1.19.2-1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "applecrates_compat-1.19.2-1.0.2.jar",
+          "url": "applecrates_compat-1.19.2-1.0.2.jar",
+          "size": 51324,
+          "sha512": "f9a6d0b5763528b2169fcb483db8ee1f7a57f4511ecd382966fb8d70644e395ec0240ac10715f3280b3fc0137f34d8c379e575ffd4f6e2ea93a9783cdf1c4dfd",
+          "sha256": "0eb5a5f90686295f90cc6a4b2349e40da3736cde0da60431d82637402e74307e",
+          "sha1": "682f4a6d6287b45d29fd8146e3c6b555784ec22f",
+          "md5": "805bef07b77536a9fa7d153e5d4d133e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-codec",
+          "version": {
+            "requires": "4.1.104.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.1.104.Final"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.0.0-jre"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.26.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "apple-crates-630726",
+          "version": {
+            "strictly": "4026845_mapped_parchment_2022.11.27-1.19.2",
+            "requires": "4026845_mapped_parchment_2022.11.27-1.19.2"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.19.2-43.2.21_mapped_parchment_2022.11.27-1.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applecrates_compat-1.19.2-1.0.2.jar",
+          "url": "applecrates_compat-1.19.2-1.0.2.jar",
+          "size": 51324,
+          "sha512": "f9a6d0b5763528b2169fcb483db8ee1f7a57f4511ecd382966fb8d70644e395ec0240ac10715f3280b3fc0137f34d8c379e575ffd4f6e2ea93a9783cdf1c4dfd",
+          "sha256": "0eb5a5f90686295f90cc6a4b2349e40da3736cde0da60431d82637402e74307e",
+          "sha1": "682f4a6d6287b45d29fd8146e3c6b555784ec22f",
+          "md5": "805bef07b77536a9fa7d153e5d4d133e"
+        }
+      ]
+    }
+  ]
+}

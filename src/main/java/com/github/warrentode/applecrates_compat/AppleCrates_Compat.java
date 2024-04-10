@@ -31,6 +31,9 @@ public class AppleCrates_Compat {
         String minecraft = "minecraft";
         String[] VANILLA_WOOD = new String[]{"mangrove"};
 
+        String aether = "aether";
+        String[] AETHER = new String[]{"skyroot", "golden_oak"};
+
         String biomesoplenty = "biomesoplenty";
         String[] BIOMESOPLENTY_WOOD = new String[]{
                 "cherry", "dead", "fir", "hellbark", "jacaranda", "magic", "mahogany", "palm", "redwood", "umbran", "willow"
@@ -93,6 +96,11 @@ public class AppleCrates_Compat {
         if (ModList.get().isLoaded("tofucraft")) {
             for (String wood : TOFU_STEM) {
                 new AppleCrateAPI.AppleCrateBuilder(tofucraft, MODID, wood).withSuffix("").register();
+            }
+        }
+        if (ModList.get().isLoaded("aether")) {
+            for (String wood : AETHER) {
+                new AppleCrateAPI.AppleCrateBuilder(unusualend, MODID, wood).withParentFolder("blocks/").register();
             }
         }
 

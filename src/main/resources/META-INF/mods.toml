@@ -5,12 +5,12 @@ license="CC0 1.0 Universal"
 
 [[mods]]
 modId="applecrates_compat"
-version='1.19.2-1.0.1'
+version='${file.jarVersion}'
 displayName="AppleCrates Compat"
 #logoFile="applecrates_compat.png" #optional
-credits = "Special thanks to my sons, and my supporters: Marshal Nash and Trevor Brannigan, for supporting my blog and my various projects!"
+credits = "Original Author is AbsolemJackdaw, all credit goes to them. I'm just maintaining the code for this since my family still uses the mod."
 authors = "Warren Tode (ToadieOdie)"
-description="Personal compatiblity mod I put together for the AppleCrates mod"
+description="Just a compatibility mod I forked and continue to keep running and I will try to keep it working as best as I can for as long as I can."
 
 [[dependencies.applecrates_compat]]
     modId="forge"
@@ -25,50 +25,6 @@ description="Personal compatiblity mod I put together for the AppleCrates mod"
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
-
-
-[[dependencies.applecrates_compat]]
-    modId = "ecologics"
-    mandatory = false
-    versionRange = "[2.1.11,)"
-    ordering = "BEFORE"
-    side = "BOTH"
-[[dependencies.applecrates_compat]]
-    modId = "unusualend"
-    mandatory = false
-    versionRange = "[1.4.3,)"
-    ordering = "BEFORE"
-    side = "BOTH"
-[[dependencies.applecrates_compat]]
-    modId = "phantasm"
-    mandatory = false
-    versionRange = "[1.2.10.5,)"
-    ordering = "BEFORE"
-    side = "BOTH"
-[[dependencies.applecrates_compat]]
-    modId = "terrablender"
-    mandatory = false
-    versionRange = "[2.0.1.166,)"
-    ordering = "BEFORE"
-    side = "BOTH"
-[[dependencies.applecrates_compat]]
-    modId = "biomesoplenty"
-    mandatory = false
-    versionRange = "[17.1.2.544,)"
-    ordering = "BEFORE"
-    side = "BOTH"
-[[dependencies.applecrates_compat]]
-    modId = "tofucraft"
-    mandatory = false
-    versionRange = "[1.19.2-2.10.2.1,)"
-    ordering = "BEFORE"
-    side = "BOTH"
-[[dependencies.applecrates_compat]]
-    modId = "domum_ornamentum"
-    mandatory = false
-    versionRange = "[1.19-1.0.127-BETA,)"
-    ordering = "BEFORE"
-    side = "BOTH"
 
 [[dependencies.applecrates_compat]]
     modId = "applecrates"

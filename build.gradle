@@ -23,7 +23,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.19.2-1.0.1'
+version = "${project.mc_version}-${project.mod_version}"
 group = 'com.github.warrentode'
 archivesBaseName = 'applecrates_compat'
 
@@ -96,23 +96,19 @@ repositories {
             includeGroup "curse.maven"
         }
     }
-
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
-    // flatDir {
-    //     dir 'libs'
-    // }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.21'
 
+    // addresses vulnerabilities with imported external libraries
+    implementation 'io.netty:netty-codec:4.1.104.Final'
+    implementation 'io.netty:netty-handler:4.1.104.Final'
+    implementation 'com.google.guava:guava:33.0.0-jre'
+    implementation 'org.apache.logging.log4j:log4j-core:2.17.1'
+    implementation 'org.apache.commons:commons-compress:1.26.1'
+
     implementation fg.deobf("curse.maven:apple-crates-630726:4026845")
-    // extra biomes
-    implementation fg.deobf("curse.maven:ecologics-570463:4171285")
-    implementation fg.deobf("curse.maven:unusual-end-617757:4549776")
-    implementation fg.deobf("curse.maven:phantasm-565254:4398465")
-    implementation fg.deobf("curse.maven:terrablender-563928:4618490")
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
@@ -139,7 +135,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'com.github.warrentode'
             artifactId = 'applecrates_compat'
-            version = '1.19.2-1.0.1'
+            version = "${project.mc_version}-${project.mod_version}"
 
             from components.java
         }
