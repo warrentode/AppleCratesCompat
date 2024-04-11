@@ -1,7 +1,7 @@
 {
   "parent": "applecrates:block/applecrate",
   "textures": {
-    "0": "unusualend:blocks/skyroot_planks",
-    "particle": "unusualend:blocks/skyroot_planks"
+    "0": "aether:block/construction/skyroot_planks",
+    "particle": "aether:block/construction/skyroot_planks"
   }
 }

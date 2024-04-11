@@ -1,4 +1,4 @@
-// 1.19.2	2024-04-09T22:41:30.2246021	Block States: applecrates_compat
+// 1.19.2	2024-04-11T01:37:18.49276	Block States: applecrates_compat
 f32bcecb66b8d334402f35244c5cbc05e6a1320e assets/applecrates_compat/blockstates/azalea_crate.json
 aa8ad1c68842c02c5852c7b5aabffd0f159cae11 assets/applecrates_compat/blockstates/cherry_crate.json
 550b95fe7587e5a360dcf43c43e870a3c729277c assets/applecrates_compat/blockstates/chorus_nest_crate.json
@@ -7,7 +7,6 @@ aa8ad1c68842c02c5852c7b5aabffd0f159cae11 assets/applecrates_compat/blockstates/c
 f3f96d75f9f214a33f7b92441b13f2cd9dca93fc assets/applecrates_compat/blockstates/ebony_crate.json
 4bb0f7283406ba51f3567a0bad6b2a09f911bc8d assets/applecrates_compat/blockstates/fir_crate.json
 4215f70be4e94338929ac212668eed7f6a88cac8 assets/applecrates_compat/blockstates/flowering_azalea_crate.json
-5bab081cb9f9d7cd745db9dfdc8d3d40eaadeb52 assets/applecrates_compat/blockstates/golden_oak_crate.json
 61f042f3303983d9672fd84169db7f5a4e908100 assets/applecrates_compat/blockstates/hellbark_crate.json
 c130153414630fb9573cdb1c323fadce982b7a58 assets/applecrates_compat/blockstates/jacaranda_crate.json
 bb1edb88d72225755ec13e116bd8cd903ea8b1e3 assets/applecrates_compat/blockstates/magic_crate.json

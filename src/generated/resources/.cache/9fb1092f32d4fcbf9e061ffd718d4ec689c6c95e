@@ -1,4 +1,4 @@
-// 1.19.2	2023-08-22T04:50:13.6476494	Recipes
+// 1.19.2	2024-04-11T02:20:25.4054798	Recipes
 4ab180aea4a626b893b4af0b9ed9311ae2c80b32 data/applecrates_compat/recipes/azalea_crate.json
 0f1e360ba3a461b657a72f6f48706ae64796c77e data/applecrates_compat/recipes/cherry_crate.json
 3f911f82cd71ba67ccea686c8a38b5809722fdc3 data/applecrates_compat/recipes/chorus_nest_crate.json
@@ -15,6 +15,7 @@ b28b93994903f155b87dc42d652e2e42cd975fd9 data/applecrates_compat/recipes/mahogan
 de06b38f57a7ded15a5bbcb29e28bce7dcce1272 data/applecrates_compat/recipes/palm_crate.json
 3f1c7f6a76624b75b1dab222ffa01429742ed554 data/applecrates_compat/recipes/pream_crate.json
 74f06a4baa9a4275bbb2e29084d3c56db597d3ff data/applecrates_compat/recipes/redwood_crate.json
+b17d1c987012ca7af2d58872eded185de8409534 data/applecrates_compat/recipes/skyroot_crate.json
 6185ac079bfa3c6efe236653066e7419db64a8d0 data/applecrates_compat/recipes/umbran_crate.json
 813fb8fd4195040ed3c133de3315a22863ab08c5 data/applecrates_compat/recipes/walnut_crate.json
 3e91d9279528b7a8f76e8341287887e8c69d99db data/applecrates_compat/recipes/willow_crate.json

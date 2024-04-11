@@ -79,10 +79,6 @@
     {
       "id": "applecrates_compat:skyroot_crate",
       "required": false
-    },
-    {
-      "id": "applecrates_compat:golden_oak_crate",
-      "required": false
     }
   ]
 }
