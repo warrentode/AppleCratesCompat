@@ -1,4 +1,4 @@
-// 1.19.2	2024-04-09T22:41:30.2256019	Block Models: applecrates_compat
+// 1.19.2	2024-04-11T02:20:25.4044814	Block Models: applecrates_compat
 669e4f3cad8ad59453954e97468ea0b531eeb86d assets/applecrates_compat/models/block/azalea_crate.json
 103c1c0fd4f97d1391ebd75a15317445b8cdfbda assets/applecrates_compat/models/block/cherry_crate.json
 37bc3854dbb7de8ff8757c7b68afef39a4f5cf25 assets/applecrates_compat/models/block/chorus_nest_crate.json
@@ -7,7 +7,6 @@ b9b5591023a1cd389f854bc71d5d30ef6e1ed975 assets/applecrates_compat/models/block/
 02325803280e572471cfb24962bc430009a253d6 assets/applecrates_compat/models/block/ebony_crate.json
 48ceb818b9e8df7b6e2ed4e45aa8dd4d61ae985c assets/applecrates_compat/models/block/fir_crate.json
 333342a414da3e4d309ac11e6b0c132369c2cab4 assets/applecrates_compat/models/block/flowering_azalea_crate.json
-5831f94db2980e234195c837bb7aad85d2f738ee assets/applecrates_compat/models/block/golden_oak_crate.json
 3a7ed1247cdd466a9dea50b83e823974090f12a3 assets/applecrates_compat/models/block/hellbark_crate.json
 d14ff45ac7e3bac3b53749b37fbcfacf4dba8a7e assets/applecrates_compat/models/block/jacaranda_crate.json
 afd69e825f58039b722dccef313adfdbae82cd7c assets/applecrates_compat/models/block/magic_crate.json
@@ -16,7 +15,7 @@ afd69e825f58039b722dccef313adfdbae82cd7c assets/applecrates_compat/models/block/
 d66c81dd11d49692cd69113ef55d913230a79cfb assets/applecrates_compat/models/block/palm_crate.json
 35db444d4eb64c41c0a14607a8c709fc540156b7 assets/applecrates_compat/models/block/pream_crate.json
 295974e97ea5aec3e4f3980285e87a2220520ab0 assets/applecrates_compat/models/block/redwood_crate.json
-73b83a6aa1d04b93c5e4c996e163363b227f865c assets/applecrates_compat/models/block/skyroot_crate.json
+97fc7932735be6aca7b25516d0f91b9ee2f26f06 assets/applecrates_compat/models/block/skyroot_crate.json
 5656952e0b7e303d61faa4e26074f1ea4790ab05 assets/applecrates_compat/models/block/umbran_crate.json
 e5ef857a0c37106efd54bd71143100605bd69648 assets/applecrates_compat/models/block/walnut_crate.json
 fa1cb3543b3375d670ebeffac830c9ef3ae89a48 assets/applecrates_compat/models/block/willow_crate.json

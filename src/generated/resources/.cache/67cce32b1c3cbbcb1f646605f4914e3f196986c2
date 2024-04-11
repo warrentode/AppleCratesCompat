@@ -1,4 +1,4 @@
-// 1.19.2	2024-04-09T22:41:30.2246021	LootTables
+// 1.19.2	2024-04-11T01:37:18.4917596	LootTables
 1aed8706402a0ac46ab65dfe2b75999585536f4c data/applecrates_compat/loot_tables/blocks/azalea_crate.json
 9b86e45a798014f0171eb2b57020191c6aa006f3 data/applecrates_compat/loot_tables/blocks/cherry_crate.json
 3f9ffaba3488261863a108e725e213d69f0d418e data/applecrates_compat/loot_tables/blocks/chorus_nest_crate.json
@@ -7,7 +7,6 @@ d6286509333cedf119aedf526fcd0b1d79c33005 data/applecrates_compat/loot_tables/blo
 cdb8471f8029f912c0106a8a2fe336d89f72c242 data/applecrates_compat/loot_tables/blocks/ebony_crate.json
 f16327f08d065c6b9f6c3d4e16a23fe3069e3c5c data/applecrates_compat/loot_tables/blocks/fir_crate.json
 048d06dd7748198d0020ae889a806d341c0705a8 data/applecrates_compat/loot_tables/blocks/flowering_azalea_crate.json
-79e7f238344bd75960848d3e958667e09f404df5 data/applecrates_compat/loot_tables/blocks/golden_oak_crate.json
 f6615cc9475cb53b36dd8a17de5e17381360a740 data/applecrates_compat/loot_tables/blocks/hellbark_crate.json
 3d1ef8397c6aaf1ad34e028f375d4816b4a0f987 data/applecrates_compat/loot_tables/blocks/jacaranda_crate.json
 1c8cbd444cc0e06e1d0dddae8b6e9c54dcb6274b data/applecrates_compat/loot_tables/blocks/magic_crate.json
