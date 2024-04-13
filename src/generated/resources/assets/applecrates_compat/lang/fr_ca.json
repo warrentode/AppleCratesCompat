@@ -1,12 +1,15 @@
 {
   "block.applecrates_compat.azalea_crate": "Azalea Crate",
+  "block.applecrates_compat.bloodshroom_crate": "Bloodshroom Crate",
   "block.applecrates_compat.cherry_crate": "Cherry Crate",
   "block.applecrates_compat.chorus_nest_crate": "Chorus Nest Crate",
   "block.applecrates_compat.coconut_crate": "Coconut Crate",
   "block.applecrates_compat.dead_crate": "Dead Crate",
   "block.applecrates_compat.ebony_crate": "Ebony Crate",
+  "block.applecrates_compat.enderbark_crate": "Enderbark Crate",
   "block.applecrates_compat.fir_crate": "Fir Crate",
   "block.applecrates_compat.flowering_azalea_crate": "Flowering Azalea Crate",
+  "block.applecrates_compat.greenheart_crate": "Greenheart Crate",
   "block.applecrates_compat.hellbark_crate": "Hellbark Crate",
   "block.applecrates_compat.jacaranda_crate": "Jacaranda Crate",
   "block.applecrates_compat.magic_crate": "Magic Crate",
@@ -16,6 +19,7 @@
   "block.applecrates_compat.pream_crate": "Pream Crate",
   "block.applecrates_compat.redwood_crate": "Redwood Crate",
   "block.applecrates_compat.skyroot_crate": "Skyroot Crate",
+  "block.applecrates_compat.tc_skyroot_crate": "Tc Skyroot Crate",
   "block.applecrates_compat.umbran_crate": "Umbran Crate",
   "block.applecrates_compat.walnut_crate": "Walnut Crate",
   "block.applecrates_compat.willow_crate": "Willow Crate"

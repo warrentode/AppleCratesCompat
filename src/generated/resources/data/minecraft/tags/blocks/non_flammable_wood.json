@@ -79,6 +79,22 @@
     {
       "id": "applecrates_compat:skyroot_crate",
       "required": false
+    },
+    {
+      "id": "applecrates_compat:greenheart_crate",
+      "required": false
+    },
+    {
+      "id": "applecrates_compat:bloodshroom_crate",
+      "required": false
+    },
+    {
+      "id": "applecrates_compat:enderbark_crate",
+      "required": false
+    },
+    {
+      "id": "applecrates_compat:tc_skyroot_crate",
+      "required": false
     }
   ]
 }

@@ -31,6 +31,14 @@ public class AppleCrates_Compat {
         String minecraft = "minecraft";
         String[] VANILLA_WOOD = new String[]{"mangrove"};
 
+        String tconstruct = "tconstruct";
+        String[] SLIME_WOOD = new String[] {
+                "greenheart", "bloodshroom", "enderbark"
+        };
+        String[] TC_SKYROOT = new String[] {
+                "skyroot"
+        };
+
         String biomesoplenty = "biomesoplenty";
         String[] BIOMESOPLENTY_WOOD = new String[]{
                 "cherry", "dead", "fir", "hellbark", "jacaranda", "magic", "mahogany", "palm", "redwood", "umbran", "willow"
@@ -102,6 +110,21 @@ public class AppleCrates_Compat {
             for (String wood : AETHER) {
                 new AppleCrateAPI.AppleCrateBuilder(aether, MODID, wood)
                         .withParentFolder("block/construction/").register();
+            }
+        }
+        if (ModList.get().isLoaded("tconstruct")) {
+            for (String wood : SLIME_WOOD) {
+                new AppleCrateAPI.AppleCrateBuilder(tconstruct, MODID, wood)
+                        .withParentFolder("block/wood/")
+                        .withTextureName(wood + "/planks")
+                        .withSuffix("").register();
+            }
+            for (String wood : TC_SKYROOT) {
+                new AppleCrateAPI.AppleCrateBuilder(tconstruct, MODID, "tc_skyroot")
+                        .withBlock("skyroot_planks")
+                        .withParentFolder("block/wood/")
+                        .withTextureName("skyroot/planks")
+                        .withSuffix("").register();
             }
         }
 
