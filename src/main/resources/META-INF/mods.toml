@@ -1,12 +1,14 @@
-
 modLoader="javafml"
 loaderVersion="[43,)"
 license="CC0 1.0 Universal"
+issueTrackerURL="https://github.com/warrentode/AppleCratesCompat/issues"
 
 [[mods]]
 modId="applecrates_compat"
 version='${file.jarVersion}'
 displayName="AppleCrates Compat"
+updateJSONURL = "https://www.planetminecraft.com/mod/applecratescompat/"
+displayURL = "https://www.planetminecraft.com/mod/applecratescompat/"
 #logoFile="applecrates_compat.png" #optional
 credits = "Original Author is AbsolemJackdaw, all credit goes to them. I'm just maintaining the code for this since my family still uses the mod."
 authors = "Warren Tode (ToadieOdie)"
