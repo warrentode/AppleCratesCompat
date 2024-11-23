@@ -64,11 +64,6 @@ public class AppleCrates_Compat {
                 "cactus_extra", "green_cactus_extra"
         };
 
-        String tofucraft = "tofucraft";
-        String[] TOFU_STEM = new String[]{
-                "tofustem_planks"
-        };
-
         String aether = "aether";
         String[] AETHER = new String[]{"skyroot"};
 
@@ -99,11 +94,6 @@ public class AppleCrates_Compat {
         if (ModList.get().isLoaded("domum_ornamentum")) {
             for (String wood : CACTUS_WOOD) {
                 new AppleCrateAPI.AppleCrateBuilder(domum_ornamentum, MODID, wood).withParentFolder("block/extra/").withSuffix("").register();
-            }
-        }
-        if (ModList.get().isLoaded("tofucraft")) {
-            for (String wood : TOFU_STEM) {
-                new AppleCrateAPI.AppleCrateBuilder(tofucraft, MODID, wood).withSuffix("").register();
             }
         }
         if (ModList.get().isLoaded("aether")) {
