@@ -93,7 +93,8 @@ public class AppleCrates_Compat {
         }
         if (ModList.get().isLoaded("domum_ornamentum")) {
             for (String wood : CACTUS_WOOD) {
-                new AppleCrateAPI.AppleCrateBuilder(domum_ornamentum, MODID, wood).withParentFolder("block/extra/").withSuffix("").register();
+                new AppleCrateAPI.AppleCrateBuilder(domum_ornamentum, MODID, wood)
+                        .withParentFolder("block/extra/").withSuffix("").register();
             }
         }
         if (ModList.get().isLoaded("aether")) {
