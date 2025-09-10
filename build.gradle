@@ -102,11 +102,12 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.3.8'
 
     // addresses vulnerabilities with imported external libraries
-    implementation 'io.netty:netty-codec:4.1.104.Final'
-    implementation 'io.netty:netty-handler:4.1.104.Final'
+    implementation 'io.netty:netty-codec:4.2.5.Final'
+    implementation 'io.netty:netty-handler:4.2.5.Final'
     implementation 'com.google.guava:guava:33.0.0-jre'
     implementation 'org.apache.logging.log4j:log4j-core:2.17.1'
-    implementation 'org.apache.commons:commons-compress:1.26.1'
+    implementation 'org.apache.commons:commons-compress:1.27.1'
+    implementation 'org.apache.commons:commons-lang3:3.18.0'
 
     implementation fg.deobf("curse.maven:apple-crates-630726:4026845")
 
