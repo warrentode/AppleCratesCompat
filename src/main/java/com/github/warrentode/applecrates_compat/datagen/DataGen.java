@@ -1,4 +1,4 @@
-package com.github.warrentode.applecrates_compat;
+package com.github.warrentode.applecrates_compat.datagen;
 
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

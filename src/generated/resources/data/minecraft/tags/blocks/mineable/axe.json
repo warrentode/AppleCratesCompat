@@ -1,6 +1,14 @@
 {
   "values": [
     {
+      "id": "applecrates_compat:cactus_extra_crate",
+      "required": false
+    },
+    {
+      "id": "applecrates_compat:green_cactus_extra_crate",
+      "required": false
+    },
+    {
       "id": "applecrates_compat:mangrove_crate",
       "required": false
     },
@@ -17,6 +25,10 @@
       "required": false
     },
     {
+      "id": "applecrates_compat:pine_crate",
+      "required": false
+    },
+    {
       "id": "applecrates_compat:hellbark_crate",
       "required": false
     },
@@ -26,6 +38,10 @@
     },
     {
       "id": "applecrates_compat:magic_crate",
+      "required": false
+    },
+    {
+      "id": "applecrates_compat:maple_crate",
       "required": false
     },
     {
@@ -49,6 +65,10 @@
       "required": false
     },
     {
+      "id": "applecrates_compat:empyreal_crate",
+      "required": false
+    },
+    {
       "id": "applecrates_compat:coconut_crate",
       "required": false
     },
@@ -65,15 +85,11 @@
       "required": false
     },
     {
-      "id": "applecrates_compat:pream_crate",
-      "required": false
-    },
-    {
-      "id": "applecrates_compat:ebony_crate",
-      "required": false
-    },
-    {
       "id": "applecrates_compat:chorus_nest_crate",
+      "required": false
+    },
+    {
+      "id": "applecrates_compat:stripped_chorus_nest_crate",
       "required": false
     },
     {

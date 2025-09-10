@@ -1,7 +1,7 @@
 {
   "parent": "applecrates:block/applecrate",
   "textures": {
-    "0": "unusualend:blocks/chorus_nest_planks",
-    "particle": "unusualend:blocks/chorus_nest_planks"
+    "0": "unusualend:block/chorus_nest_planks",
+    "particle": "unusualend:block/chorus_nest_planks"
   }
 }

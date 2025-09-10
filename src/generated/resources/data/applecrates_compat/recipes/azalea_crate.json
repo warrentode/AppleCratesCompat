@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "p": {
       "item": "ecologics:azalea_planks"
@@ -14,5 +15,6 @@
   ],
   "result": {
     "item": "applecrates_compat:azalea_crate"
-  }
+  },
+  "show_notification": false
 }

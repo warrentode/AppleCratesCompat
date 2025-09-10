@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "p": {
-      "item": "biomesoplenty:cherry_planks"
+      "item": "minecraft:cherry_planks"
     },
     "s": {
       "item": "minecraft:stick"
@@ -14,5 +15,6 @@
   ],
   "result": {
     "item": "applecrates_compat:cherry_crate"
-  }
+  },
+  "show_notification": false
 }

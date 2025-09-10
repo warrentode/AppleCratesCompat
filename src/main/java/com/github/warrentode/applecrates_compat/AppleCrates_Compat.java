@@ -2,16 +2,22 @@ package com.github.warrentode.applecrates_compat;
 
 import jackdaw.applecrates.api.AppleCrateAPI;
 import jackdaw.applecrates.api.GeneralRegistry;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.NotNull;
 
 @Mod(AppleCrates_Compat.MODID)
 public class AppleCrates_Compat {
@@ -29,7 +35,7 @@ public class AppleCrates_Compat {
         BLOCK_ENTITY_TYPES.register(modEventBus);
 
         String minecraft = "minecraft";
-        String[] VANILLA_WOOD = new String[]{"mangrove"};
+        String[] VANILLA_WOOD = new String[]{"mangrove", "cherry"};
 
         String tconstruct = "tconstruct";
         String[] SLIME_WOOD = new String[] {
@@ -41,7 +47,8 @@ public class AppleCrates_Compat {
 
         String biomesoplenty = "biomesoplenty";
         String[] BIOMESOPLENTY_WOOD = new String[]{
-                "cherry", "dead", "fir", "hellbark", "jacaranda", "magic", "mahogany", "palm", "redwood", "umbran", "willow"
+                "dead", "fir", "pine", "hellbark", "jacaranda", "magic", "maple", "mahogany", "palm", "redwood",
+                "umbran", "willow", "empyreal"
         };
 
         String ecologics = "ecologics";
@@ -56,7 +63,7 @@ public class AppleCrates_Compat {
 
         String unusualend = "unusualend";
         String[] UNUSUAL_WOOD = new String[]{
-                "chorus_nest"
+                "chorus_nest", "stripped_chorus_nest"
         };
 
         String domum_ornamentum = "domum_ornamentum";
@@ -83,12 +90,13 @@ public class AppleCrates_Compat {
         }
         if (ModList.get().isLoaded("phantasm")) {
             for (String wood : PHANTASM_WOOD) {
-                new AppleCrateAPI.AppleCrateBuilder(phantasm, MODID, wood).withParentFolder("blocks/").register();
+                new AppleCrateAPI.AppleCrateBuilder(phantasm, MODID, wood)
+                        .withParentFolder("blocks/").register();
             }
         }
         if (ModList.get().isLoaded("unusualend")) {
             for (String wood : UNUSUAL_WOOD) {
-                new AppleCrateAPI.AppleCrateBuilder(unusualend, MODID, wood).withParentFolder("blocks/").register();
+                new AppleCrateAPI.AppleCrateBuilder(unusualend, MODID, wood).register();
             }
         }
         if (ModList.get().isLoaded("domum_ornamentum")) {
@@ -120,5 +128,20 @@ public class AppleCrates_Compat {
         }
 
         GeneralRegistry.prepareForRegistry(MODID, BLOCKS, ITEMS, BLOCK_ENTITY_TYPES);
+    }
+
+
+    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class CreativeTabHandler {
+        @SubscribeEvent
+        public static void addToCreativeTab(@NotNull BuildCreativeModeTabContentsEvent event) {
+            ResourceKey<CreativeModeTab> currentTab = event.getTabKey();
+
+            if (currentTab == GeneralRegistry.CRATE_TAB.getKey()) {
+                for (RegistryObject<Item> registryObject : AppleCrates_Compat.ITEMS.getEntries()) {
+                    event.accept(registryObject.get());
+                }
+            }
+        }
     }
 }

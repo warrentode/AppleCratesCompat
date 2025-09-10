@@ -32,7 +32,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'parchment', version: '2022.11.27-1.19.2'
+    mappings channel: 'parchment', version: '2023.09.03-1.20.1'
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
     // Default run configurations.
@@ -99,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.3.8'
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
 
     // addresses vulnerabilities with imported external libraries
     implementation 'io.netty:netty-codec:4.2.5.Final'
@@ -109,17 +109,26 @@ dependencies {
     implementation 'org.apache.commons:commons-compress:1.27.1'
     implementation 'org.apache.commons:commons-lang3:3.18.0'
 
-    implementation fg.deobf("curse.maven:apple-crates-630726:4026845")
+    implementation fg.deobf("curse.maven:apple-crates-630726:6292827")
 
-    implementation fg.deobf("curse.maven:terrablender-563928:4618490")
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
-    implementation fg.deobf("curse.maven:ecologics-570463:4171285")
-    implementation fg.deobf("curse.maven:unusual-end-617757:4549776")
-    implementation fg.deobf("curse.maven:phantasm-565254:4398465")
-    implementation fg.deobf("curse.maven:aether-255308:4950449")
-
-    implementation fg.deobf("curse.maven:mantle-74924:5245271")
-    implementation fg.deobf("curse.maven:tinkers-construct-74072:5245284")
+    // biomesoplenty
+    implementation fg.deobf("curse.maven:terrablender-563928:6290448")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:6364065")
+    implementation fg.deobf("curse.maven:glitchcore-955399:5787839")
+    // ecologics
+    implementation fg.deobf("curse.maven:ecologics-570463:6733908")
+    // unusual end
+    implementation fg.deobf("curse.maven:unusual-end-617757:6415102")
+    implementation fg.deobf("curse.maven:blueprint-382216:6408581")
+    // phantasm
+    compileOnly(fg.deobf("curse.maven:phantasm-565254:6149582"))
+    // aether
+    implementation fg.deobf("curse.maven:aether-255308:6134920")
+    // tinkers construct
+    implementation fg.deobf("curse.maven:mantle-74924:6819217")
+    implementation fg.deobf("curse.maven:tinkers-construct-74072:6777068")
+    // domum ornamentum
+    compileOnly(fg.deobf("curse.maven:domum-ornamentum-527361:6870756"))
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
@@ -131,7 +140,7 @@ jar {
                 "Specification-Title"     : "applecrates_compat",
                 "Specification-Vendor"    : "Warren Tode",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
-                "Implementation-Title"    : project.name,
+                "Implementation-Title"    : "forge",
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "Warren Tode",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
