@@ -56,7 +56,7 @@ public class AppleCrates_Compat {
 
         String phantasm = "phantasm";
         String[] PHANTASM_WOOD = new String[]{
-                "pream", "ebony"
+                "pream"
         };
 
         String unusualend = "unusualend";
