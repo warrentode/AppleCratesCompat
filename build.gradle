@@ -99,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.4'
 
     // addresses vulnerabilities with imported external libraries
     implementation 'io.netty:netty-codec:4.2.5.Final'

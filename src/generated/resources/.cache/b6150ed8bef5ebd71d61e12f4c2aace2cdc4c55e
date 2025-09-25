@@ -1,7 +1,6 @@
-// 1.20.1	2025-09-10T02:16:10.1993907	Item Models: applecrates_compat
+// 1.20.1	2025-09-25T04:45:15.3095377	Item Models: applecrates_compat
 10595a89b23b5880328d27b15e85aab2b4cfaa3c assets/applecrates_compat/models/item/azalea_crate.json
 dadc214a33828b7a2c406c3300ee0bd3bc7ab37d assets/applecrates_compat/models/item/bloodshroom_crate.json
-6096a292edeac2fac5f288d0b18cd77080fff6f4 assets/applecrates_compat/models/item/cherry_crate.json
 9980422211f9f6103536ea7d6fc56a42f94f133f assets/applecrates_compat/models/item/chorus_nest_crate.json
 ea8befd3e63cc11aab91d6bf01520b6e62ebca7d assets/applecrates_compat/models/item/coconut_crate.json
 8c96aa3cdd5132cb07de3f2ae8c011a340140164 assets/applecrates_compat/models/item/dead_crate.json
@@ -14,7 +13,6 @@ b215a691d8c3a062d115329cabbdeef292cad671 assets/applecrates_compat/models/item/h
 fee5dfca830fa7d5567e91fbb7740385ea680ef6 assets/applecrates_compat/models/item/jacaranda_crate.json
 358fb22a213345c180ab71699d9b51561f8cfc37 assets/applecrates_compat/models/item/magic_crate.json
 412151fb45ce10cb14d0f23d55946a0732972f43 assets/applecrates_compat/models/item/mahogany_crate.json
-6d76648194ff86098a395388553b7ac1de97e995 assets/applecrates_compat/models/item/mangrove_crate.json
 bdd89485b0008b9aa2bae976c879bbf945b6de56 assets/applecrates_compat/models/item/maple_crate.json
 65a3121fceedabac85c9f72ce733b1b06165543e assets/applecrates_compat/models/item/palm_crate.json
 2de5cbdd7bb8e61abebf5e6dac54b5a40e7ddc96 assets/applecrates_compat/models/item/pine_crate.json

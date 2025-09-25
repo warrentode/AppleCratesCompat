@@ -2,7 +2,6 @@
   "block.applecrates_compat.azalea_crate": "Azalea Crate",
   "block.applecrates_compat.bloodshroom_crate": "Bloodshroom Crate",
   "block.applecrates_compat.cactus_extra_crate": "Cactus Extra Crate",
-  "block.applecrates_compat.cherry_crate": "Cherry Crate",
   "block.applecrates_compat.chorus_nest_crate": "Chorus Nest Crate",
   "block.applecrates_compat.coconut_crate": "Coconut Crate",
   "block.applecrates_compat.dead_crate": "Dead Crate",
@@ -17,7 +16,6 @@
   "block.applecrates_compat.jacaranda_crate": "Jacaranda Crate",
   "block.applecrates_compat.magic_crate": "Magic Crate",
   "block.applecrates_compat.mahogany_crate": "Mahogany Crate",
-  "block.applecrates_compat.mangrove_crate": "Mangrove Crate",
   "block.applecrates_compat.maple_crate": "Maple Crate",
   "block.applecrates_compat.palm_crate": "Palm Crate",
   "block.applecrates_compat.pine_crate": "Pine Crate",
@@ -28,5 +26,6 @@
   "block.applecrates_compat.tc_skyroot_crate": "Tinker's Skyroot Crate",
   "block.applecrates_compat.umbran_crate": "Umbran Crate",
   "block.applecrates_compat.walnut_crate": "Walnut Crate",
-  "block.applecrates_compat.willow_crate": "Willow Crate"
+  "block.applecrates_compat.willow_crate": "Willow Crate",
+  "itemGroup.applecratescompat_tab": "Applecrates Compat"
 }

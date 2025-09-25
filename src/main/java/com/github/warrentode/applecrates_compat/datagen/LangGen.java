@@ -17,6 +17,8 @@ public class LangGen extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        add("itemGroup.applecratescompat_tab", "Applecrates Compat");
+
         add("block.applecrates_compat.cactus_extra_crate", "Cactus Extra Crate");
         add("block.applecrates_compat.green_cactus_extra_crate", "Green Cactus Extra Crate");
         add("block.applecrates_compat.ebony_crate", "Ebony Crate");

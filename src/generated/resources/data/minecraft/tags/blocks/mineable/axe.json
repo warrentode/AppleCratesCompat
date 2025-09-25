@@ -9,14 +9,6 @@
       "required": false
     },
     {
-      "id": "applecrates_compat:mangrove_crate",
-      "required": false
-    },
-    {
-      "id": "applecrates_compat:cherry_crate",
-      "required": false
-    },
-    {
       "id": "applecrates_compat:dead_crate",
       "required": false
     },
