@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-25T04:45:15.3095377	Block States: applecrates_compat
+// 1.20.1	2025-09-25T06:35:24.1836521	Block States: applecrates_compat
 f32bcecb66b8d334402f35244c5cbc05e6a1320e assets/applecrates_compat/blockstates/azalea_crate.json
 efe7b096f4740dd57afbd83eb12b0b2fdab4f7c8 assets/applecrates_compat/blockstates/bloodshroom_crate.json
 550b95fe7587e5a360dcf43c43e870a3c729277c assets/applecrates_compat/blockstates/chorus_nest_crate.json
@@ -16,6 +16,7 @@ bb1edb88d72225755ec13e116bd8cd903ea8b1e3 assets/applecrates_compat/blockstates/m
 cf5dac6d3a528fbaa888802bec9b38da77b11546 assets/applecrates_compat/blockstates/maple_crate.json
 2114f9decb45b37c04f73edaeca4da1c7e94528f assets/applecrates_compat/blockstates/palm_crate.json
 b45c89c64f5b0de35961dbaa9a6bab0e1fb1a7af assets/applecrates_compat/blockstates/pine_crate.json
+12152afa7fb54df5296c53ede92dceecb58150ed assets/applecrates_compat/blockstates/pream_crate.json
 1daf31c0878e02c5af57d935b5ed0e2286373175 assets/applecrates_compat/blockstates/redwood_crate.json
 60fd8e83670b2c8ed8810ac73cace94461eb0123 assets/applecrates_compat/blockstates/skyroot_crate.json
 bfe01c66282b32ed8d082c41940964c61b05b854 assets/applecrates_compat/blockstates/stripped_chorus_nest_crate.json

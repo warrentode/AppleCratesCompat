@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-25T04:45:15.3095377	Block Models: applecrates_compat
+// 1.20.1	2025-09-25T06:35:24.1836521	Block Models: applecrates_compat
 669e4f3cad8ad59453954e97468ea0b531eeb86d assets/applecrates_compat/models/block/azalea_crate.json
 df2ecc14e10cded53ddd18ec1b864668054ec28f assets/applecrates_compat/models/block/bloodshroom_crate.json
 ff83d01d6f63d710d190ec970d8a82ce52a996af assets/applecrates_compat/models/block/chorus_nest_crate.json
@@ -16,6 +16,7 @@ afd69e825f58039b722dccef313adfdbae82cd7c assets/applecrates_compat/models/block/
 6445728e51f37cfa2197862972afad4e8c5419dd assets/applecrates_compat/models/block/maple_crate.json
 d66c81dd11d49692cd69113ef55d913230a79cfb assets/applecrates_compat/models/block/palm_crate.json
 f5d2977b0f1ab18da38b670a30dd1d124cce7170 assets/applecrates_compat/models/block/pine_crate.json
+35f663353421891c6a8aa3ca92867101103cbf18 assets/applecrates_compat/models/block/pream_crate.json
 295974e97ea5aec3e4f3980285e87a2220520ab0 assets/applecrates_compat/models/block/redwood_crate.json
 97fc7932735be6aca7b25516d0f91b9ee2f26f06 assets/applecrates_compat/models/block/skyroot_crate.json
 6e0b8e19b4185fc8691f4244df9c6516bed12e1f assets/applecrates_compat/models/block/stripped_chorus_nest_crate.json

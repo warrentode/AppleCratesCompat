@@ -1,7 +1,0 @@
-{
-  "parent": "applecrates:block/applecrate",
-  "textures": {
-    "0": "phantasm:blocks/ebony_planks",
-    "particle": "phantasm:blocks/ebony_planks"
-  }
-}

@@ -21,8 +21,6 @@ public class LangGen extends LanguageProvider {
 
         add("block.applecrates_compat.cactus_extra_crate", "Cactus Extra Crate");
         add("block.applecrates_compat.green_cactus_extra_crate", "Green Cactus Extra Crate");
-        add("block.applecrates_compat.ebony_crate", "Ebony Crate");
-        add("block.applecrates_compat.pream_crate", "Pream Crate");
         add("block.applecrates_compat.tc_skyroot_crate", "Tinker's Skyroot Crate");
         add("block.applecrates_compat.skyroot_crate", "Aether Skyroot Crate");
 

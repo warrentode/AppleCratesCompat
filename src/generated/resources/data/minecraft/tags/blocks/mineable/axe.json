@@ -77,6 +77,10 @@
       "required": false
     },
     {
+      "id": "applecrates_compat:pream_crate",
+      "required": false
+    },
+    {
       "id": "applecrates_compat:chorus_nest_crate",
       "required": false
     },

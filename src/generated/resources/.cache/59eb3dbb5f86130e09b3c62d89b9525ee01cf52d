@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-25T04:45:15.3095377	Loot Tables
+// 1.20.1	2025-09-25T06:35:24.1826535	Loot Tables
 555405e160e0a2e0daf15191ac2c736f58ebfb2d data/applecrates_compat/loot_tables/blocks/azalea_crate.json
 77cd2ad7517af09234111e11410954a5fe952236 data/applecrates_compat/loot_tables/blocks/bloodshroom_crate.json
 b163f431fe5a7cc252a3f8e0c061adb07e08ae5f data/applecrates_compat/loot_tables/blocks/chorus_nest_crate.json
@@ -16,6 +16,7 @@ f7ee9ecb09fc51ac85bd2e5dbad787e76f68d690 data/applecrates_compat/loot_tables/blo
 22862bad51a67afbd576cab84648fc5a42756234 data/applecrates_compat/loot_tables/blocks/maple_crate.json
 62f501665c52399354497c831aae651ac1b65e25 data/applecrates_compat/loot_tables/blocks/palm_crate.json
 5555ceee62060b027cf13c96d0f25423621de464 data/applecrates_compat/loot_tables/blocks/pine_crate.json
+d43910efbe0afad70be6071285ff4528bc1e7a39 data/applecrates_compat/loot_tables/blocks/pream_crate.json
 b2ee4552a56c6363cc00e8772402de6af2541aea data/applecrates_compat/loot_tables/blocks/redwood_crate.json
 a6a1980805ca8c44b2424bae1d4a57ed6facabad data/applecrates_compat/loot_tables/blocks/skyroot_crate.json
 eb5781a3e49ae9e81cd8dc4d72b56c15492b9278 data/applecrates_compat/loot_tables/blocks/stripped_chorus_nest_crate.json

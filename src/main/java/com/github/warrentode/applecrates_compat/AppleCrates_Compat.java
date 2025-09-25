@@ -56,7 +56,7 @@ public class AppleCrates_Compat {
 
         String phantasm = "phantasm";
         String[] PHANTASM_WOOD = new String[]{
-                "pream", "ebony"
+                "pream"
         };
 
         String unusualend = "unusualend";
@@ -84,8 +84,7 @@ public class AppleCrates_Compat {
         }
         if (ModList.get().isLoaded("phantasm")) {
             for (String wood : PHANTASM_WOOD) {
-                new AppleCrateAPI.AppleCrateBuilder(phantasm, MODID, wood)
-                        .withParentFolder("blocks/").register();
+                new AppleCrateAPI.AppleCrateBuilder(phantasm, MODID, wood).register();
             }
         }
         if (ModList.get().isLoaded("unusualend")) {
