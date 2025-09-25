@@ -1,7 +1,6 @@
-// 1.20.1	2025-09-10T02:16:10.1993907	Recipes
+// 1.20.1	2025-09-25T04:45:15.3095377	Recipes
 597091e1a3a93bfda886c0e30a1909f202d9187a data/applecrates_compat/recipes/azalea_crate.json
 856918f638973086f1eefe6e447d7eca31daf289 data/applecrates_compat/recipes/bloodshroom_crate.json
-573afa2e5b0a2886efc980c3e2814c7b9c8a8cb6 data/applecrates_compat/recipes/cherry_crate.json
 f17f57019e5bd32f6c0964deac4db8e89ccee608 data/applecrates_compat/recipes/chorus_nest_crate.json
 2346a4fbac3bba43675432bdafeae00ddc25af0a data/applecrates_compat/recipes/coconut_crate.json
 8e0db6648020668d0412184aa25a9689c2d6398b data/applecrates_compat/recipes/dead_crate.json
@@ -14,7 +13,6 @@ ebd1552cc702ee92db356b66fce91e8d1456eebd data/applecrates_compat/recipes/enderba
 586ce18da2bf9846a11df33eb5d7d4cdde6cf702 data/applecrates_compat/recipes/jacaranda_crate.json
 f2396f0ccb4e476ce67f9d4b11e2d042fef8293c data/applecrates_compat/recipes/magic_crate.json
 ce4f0eee33f65b7782f0e714065c5f89aa73890b data/applecrates_compat/recipes/mahogany_crate.json
-9c7fd311ed0de74be162a24b9e762ee393c11d98 data/applecrates_compat/recipes/mangrove_crate.json
 8169d9b12a5b8caf77979c4571cf765ba1f0ac8f data/applecrates_compat/recipes/maple_crate.json
 180efddc70aec2a00acb52ba4ed1cc4bf6971f37 data/applecrates_compat/recipes/palm_crate.json
 06e4782a9d9e3c4f9cfacbc23fd4948d2ccf4bd8 data/applecrates_compat/recipes/pine_crate.json

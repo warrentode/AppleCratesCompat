@@ -27,15 +27,13 @@ public class AppleCrates_Compat {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
 
     public AppleCrates_Compat() {
+        @SuppressWarnings("removal")
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         MinecraftForge.EVENT_BUS.register(this);
 
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
         BLOCK_ENTITY_TYPES.register(modEventBus);
-
-        String minecraft = "minecraft";
-        String[] VANILLA_WOOD = new String[]{"mangrove", "cherry"};
 
         String tconstruct = "tconstruct";
         String[] SLIME_WOOD = new String[] {
@@ -73,10 +71,6 @@ public class AppleCrates_Compat {
 
         String aether = "aether";
         String[] AETHER = new String[]{"skyroot"};
-
-        for (String wood : VANILLA_WOOD) {
-            new AppleCrateAPI.AppleCrateBuilder(minecraft, MODID, wood).register();
-        }
 
         if (ModList.get().isLoaded("biomesoplenty")) {
             for (String wood : BIOMESOPLENTY_WOOD) {
