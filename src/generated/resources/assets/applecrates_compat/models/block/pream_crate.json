@@ -1,0 +1,7 @@
+{
+  "parent": "applecrates:block/applecrate",
+  "textures": {
+    "0": "phantasm:block/pream_planks",
+    "particle": "phantasm:block/pream_planks"
+  }
+}
